@@ -17,14 +17,14 @@ Mock REST API for menu and order storage
 
 Easy to run locally with minimal setup
 
-📦 Project Structure
+# 📦 Project Structure
 index.html       → Main interface  
 style.css        → Stylesheet  
 app.js           → Application logic  
 db.json          → Mock database storing menu + orders  
 images/          → Image assets
 
-🛠️ Requirements
+# 🛠️ Requirements
 
 Node.js (includes npm)
 https://nodejs.org
