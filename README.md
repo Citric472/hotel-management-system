@@ -3,7 +3,7 @@
 A web-based food ordering application built using HTML, CSS, JavaScript, and a JSON-based mock API.
 The app allows users to browse a menu, view item details, and place simple orders that are stored locally via json-server.
 
- Features
+# Features
 
 Dynamic food menu display
 
@@ -77,10 +77,10 @@ The order is added to db.json, and a confirmation alert is shown.
 
 ⚙️ Troubleshooting
 Issue	Possible Cause / Fix
-Menu not loading	JSON Server not running
-"Failed to fetch" error	Open via local server (npx serve .)
-Orders not saving	Check API_URL in app.js
-Port conflict	Change JSON Server port: --port 4001
+Menu not loading = 	JSON Server not running
+"Failed to fetch" error = 	Open via local server (npx serve .)
+Orders not saving	= Check API_URL in app.js
+Port conflict =	Change JSON Server port: --port 4001
 ✔️ Summary
 
 This application provides a simple, clean food ordering interface supported by a mock REST API, making it easy to run, test, and customize locally.# hotel-management-system
