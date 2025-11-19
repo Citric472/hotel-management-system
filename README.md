@@ -31,7 +31,7 @@ https://nodejs.org
 
 JSON Server for running the mock backend
 
-▶️ Running the Application
+# ▶️ Running the Application
 1. Clone or download the project
 git clone <your-repo-url>
 cd food-ordering-system
@@ -60,7 +60,7 @@ Option B — Direct open
 Double-click index.html
 (Note: API requests still require JSON Server running.)
 
-📌 How the App Works
+# 📌 How the App Works
 Menu Loading
 
 loadFoodMenu() fetches items from GET /menu and renders them dynamically.
@@ -75,12 +75,12 @@ Body: { itemId: <id> }
 
 The order is added to db.json, and a confirmation alert is shown.
 
-⚙️ Troubleshooting
+# ⚙️ Troubleshooting
 Issue	Possible Cause / Fix
 Menu not loading = 	JSON Server not running
 "Failed to fetch" error = 	Open via local server (npx serve .)
 Orders not saving	= Check API_URL in app.js
 Port conflict =	Change JSON Server port: --port 4001
-✔️ Summary
+# ✔️ Summary
 
 This application provides a simple, clean food ordering interface supported by a mock REST API, making it easy to run, test, and customize locally.# hotel-management-system
